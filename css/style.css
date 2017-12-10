@@ -1,0 +1,155 @@
+body{
+	margin: 0;
+	border:0;
+	background-image: url("../images/bg.jpg");
+	font-size: 14px;
+	font-family:Helvetica,​Arial,​sans-serif;
+}
+
+.content{
+	width:75%;
+	margin:60px auto;
+	height:auto;
+	background-color: #ffffff;
+	border-color: 	rgba(0,​ 0,​ 0,​ 0);
+	box-shadow:0 2px 6px rgba(100, 100, 100, 0.3);
+	border-radius:22px;
+	padding-top:60px;
+	padding-left:60px;
+}
+
+a{
+	font-size: 26px;
+    font-weight: bold;
+    color: rgba(0,0,0,0.76);
+    text-decoration:none;
+}
+
+a:hover{
+	color: #21759b;
+}
+
+
+.menu{
+	margin-top: 16px;
+    position: relative;
+    color: gray;
+    font-size: 14px;
+    width: 95%;
+    border-bottom: 1px solid #e5e9ea;
+    border-top: 1px solid #e5e9ea;
+}
+
+.menu dl{
+	margin: 0;
+}
+
+.menu dt{
+	display: inline;
+	margin-right: 40px;
+	padding-top: 14px;
+	padding-bottom:14px;
+	display: inline-block;
+}
+
+.menu ul{
+	position: absolute;
+    float: left;
+    /*display: inline-block;*/
+    list-style: none;
+    z-index: 9999;
+    margin: 0;
+    border: 0;
+	padding-left: 0px;
+	margin-top: 13px;
+	background-color: lightgray;
+	display: none;
+}
+.menu li{
+	width: 130px;
+    height: 35px;
+    line-height: 35px;
+    padding-left:5px;
+
+}
+
+.menu li:hover{
+	background-color: red;
+}
+
+.content-main{
+	position: relative;
+    padding-top: 22px;
+}
+
+.content-left{
+	position: relative;
+    width: 69%;
+    display: inline-block;
+    padding-bottom:10px;
+}
+
+.content-right{
+	float: right;
+    width: 27%;
+}
+
+.content-title{
+	 width: 100%;
+	 padding-bottom: 10px;
+}
+
+.content-left ul{
+	padding-left: 0px;
+}
+
+.content-left li{
+	display: block;
+	list-style: none;
+	padding-top: 3px;
+}
+
+.content-left img{
+	display: block;
+    margin: 0 auto;
+}
+ 
+ li img{
+	display: inline!important;
+	margin 0;
+	border:0;
+ }
+
+ li span{
+ 	position: absolute;
+    float: left;
+    margin-top: -3px;
+ }
+
+.item{
+	 border-top: 1px solid #e5e9ea;
+	 width: 100%;
+	 border-bottom: 1px solid #e5e9ea;
+	 margin-top: 1px;
+}
+
+.page{
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.page a{
+	display: inline-block;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 25px;
+	font-size: 14px;
+	font-weight: normal;
+	margin:0px;
+	border:1px solid #e5e9ea;
+}
+
+.active {
+	border:1px solid black!important;
+}
