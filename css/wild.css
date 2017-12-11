@@ -1,0 +1,19 @@
+* {
+	margin 0;
+	border: 0;
+	font-family:Microsoft YaHei;
+}
+
+h1{
+	text-align: center;
+}
+
+[class^="content"]{
+	margin: 10px auto;
+	height: 50px;
+	background-color: gray;
+	width: 80%;
+	color:#fff;
+	text-align: center;
+	line-height: 50px;
+}
