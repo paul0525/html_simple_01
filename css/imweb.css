@@ -4,31 +4,36 @@ body{
 	border:0;
 }
 
-.menu-1,.menu-2,.menu-3{
-	width: 80%;
+.header{
+	border-bottom: 1px solid gray;
+}
+
+.header-1{
+	display: block;
 	margin: 0 auto;
+	width: 80%;
+	height: 76px;
+
+}
+
+dl{
+	margin:0;
 	border:0;
-}
-
-.menu-1 dl:first-child{
 	display: inline-block;
-	width: 70%;
+    position: absolute;
+    height: 76px;
+    line-height: 76px;
 }
 
-.menu-1 dl:nth-child(2){
+dt{
 	display: inline-block;
-	width: 28%;
-	float: right;
 }
 
-.menu-1 dt{
-	display: inline-block;
-	background-color: red;
-}
-
-.menu-left{
-	width: auto;
-    height: 80px;
-    position: relative;
-    top:-59px;
+.header-2{
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	height: 76px;
+	color: #fff;
+	 background: linear-gradient(#7a4f11, #392204);
 }
