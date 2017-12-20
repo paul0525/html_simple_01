@@ -153,3 +153,12 @@ a:hover{
 .active {
 	border:1px solid black!important;
 }
+
+.left-menu{
+	top:30px;
+	left:10px;
+	width: 100px;
+	height: 200px;
+	border: 1px solid red;
+	position: fixed;
+}
