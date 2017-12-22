@@ -110,3 +110,14 @@ a:hover{
 	opacity:0.4;
 	filter: alpha(opacity=40); /* For IE8 and earlier */
 }
+
+.search-btn{
+	border: 1px solid lightgray;
+	display: inline-block;
+	width: 100px;
+	height:40px;
+	line-height: 40px;
+	padding:5px;
+	border-radius:7px;
+	background-color: #cbe6f3;
+}
