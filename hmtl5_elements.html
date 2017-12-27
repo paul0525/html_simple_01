@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>HTML5_elements</title>
+	</head>
+	<body>
+		<div>
+			<h3>视频播放器</h3>
+			 <video width="320" height="240" controls>
+			 	<source src="myvideo.mp4" type="video/mp4"></source>
+			 	<source src="myvideo.ogv" type="video/ogg"></source>
+			 	<source src="myvideo.webm" type="video/webm"></source>
+			 	<object width="" height="" type="application/x-shockwave-flash" data="myvideo.swf">
+			 		<param name="movie" value="myvideo.swf" />
+			 		<param name="flashvars" value="autostart=true&amp;file=myvideo.swf" />
+			 	</object>
+			 	当前浏览器不支持 video直接播放，点击这里下载视频： <a href="myvideo.webm">下载视频</a>
+			 </video>
+		 </div>
+		 <div>
+		 	<h3>各种Input元素</h3>
+		 	<div>
+		 		请选择您喜欢的颜色：<input type="color" name="mycolor" id="mycolor" /><br />
+		 		生日：<input type="date" name="myBirth"  id="myBirth"/><br />
+		 		生日（日期和时间）：<input type="datetime" id="" name="" />chrome<br />
+		 		生日（日期和时间）：<input type="datetime-local" id="" name="" /><br />
+		 		Email:<input type="email" id="myEmail" name="email" /><br />
+		 		生日（月和年）：<input type="month" name="bDayofMonth" /><br />
+		 		数量（1到9之间）：<input type="number" name="myNumber" min="1" max="9"/><br />
+		 		Points: <input type="range" name="points" min="1" max="10"><br />
+		 	</div>
+		 	
+		 	<div>
+		 		<h3>form元素</h3>
+		 		浏览器选择：<input list="browers" name="brower">
+		 				   <datalist id="browers">
+		 				   		<option value="Internet Explorer"></option>
+		 				   		<option value="FireFox"></option>
+		 				   		<option value="Chrome"></option>
+		 				   		<option value="Opera"></option>
+		 				   		<option value="Safari"></option>
+		 				   </datalist>
+		 		<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+					<input type="range" id="a" value="50">100 +
+					<input type="number" id="b" value="50">=
+					<output name="x" for="a b"></output>
+				</form>
+		 	</div>
+		 	<div>
+		 		<h2>form or input 新增属性</h2>
+		 		<form  autocomplete="on">
+		 			Email: <input type="email" />	
+		 			<input type="submit" value="submit" />
+		 		</form>
+		 		<input type="image" src='images/search.png' /> type='image'
+		 		
+		 	</div>
+		 	
+		 	<div style="height: 200px;"> 
+		 		footer
+		 	</div>
+		 </div>
+	</body>
+</html>
