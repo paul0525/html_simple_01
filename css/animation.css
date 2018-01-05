@@ -1,0 +1,59 @@
+
+@keyframes myfirst
+{
+from {background: red;}
+to {background: yellow;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+from {background: red;}
+to {background: yellow;}
+}
+
+
+.mydiv
+{
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	animation: myfirst 5s;
+	animation-direction: alternate;
+	animation-iteration-count:infinite; 
+}
+
+.myCenter{
+	margin: 0 auto;
+}
+
+
+@-webkit-keyframes load{
+0%{
+transform:rotate(0);
+}
+50%{
+transform:rotate(180deg);
+}
+100%{
+transform:rotate(360deg);
+}
+}
+
+.myCircle{
+	height: 60px;
+	width: 60px;
+	border-top:10px solid red;
+	border-bottom: 10px solid green;
+	border-right: 10px solid darkred;
+	border-left:10px solid darkorange;
+	border-radius: 50%;
+	-webkit-animation:load 1s linear 1s infinite;
+}
+.myImg{
+	width: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    height: 60px;
+    position: relative;
+    top: -70px;
+}
